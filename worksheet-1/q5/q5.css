@@ -1,0 +1,13 @@
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    border: 2px solid black; /*style,width and color of border*/ 
+    margin: 20px; 
+    box-sizing:border-box; /*includes padding and border in width and height*/
+  }
+  
+  p {
+    text-align: center;
+  }
+  
