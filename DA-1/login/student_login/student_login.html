@@ -3,6 +3,7 @@
 <head>
     <title>Student Login</title>
     <link rel="stylesheet" href="\DA-1\login\login.css">
+    <script src="student_login.js"></script>
 </head>
 
 <body>
@@ -14,11 +15,13 @@
     <div class="login-container">
         <div class="head">
             <h1>Student Login</h1>
+            <img src="student_logo.jpg" alt="Student Logo">
         </div>
-        <form>
-            <div class="form-group">
+        <form id="studentForm" name="studentForm" onsubmit="Validatereg()">
+            <div class="form-group" id="regno" name="regno">
                 <label for="regno">Registration No:</label>
                 <input type="text" id="regno" required placeholder="Enter your registration number">
+                <div class="error" id="regno_error"></div>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
@@ -31,6 +34,11 @@
         </div>
     </div>
 
-    <a href="#" class="back-button">← Back to Home</a>
+    <a href="\DA-1\homepage\homepagev2.html" class="back-button">← Back to Home</a>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 VTrack. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

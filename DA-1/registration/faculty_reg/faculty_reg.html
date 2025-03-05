@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Faculty Registration</title>
     <link rel="stylesheet" href="\DA-1\registration\registration.css">
 </head>
+
 <body>
-    <div class="header-strip">
-            <img src="\DA-1\registration\logo.jpeg" alt="VTrack Logo">
-            VTrack
-    </div>
 
-    <div class="registration-container">
-        <div class="head">
-            <h1>Faculty Registration</h1>
+    <div class="parent">
+
+        <div class="header">
+            <div class="header-strip">
+                <img src="\DA-1\registration\logo.jpeg" alt="VTrack Logo">
+                VTrack
+            </div>
         </div>
-        <form>
-            <div class="form-group">
-                <label for="regno">Faculty ID</label>
-                <input type="text" id="regno" required placeholder="Enter the faculty ID">
-            </div>
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" required placeholder="Enter the name of faculty">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" required placeholder="Enter the email of faculty">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" required placeholder="Enter the default password">
-            </div>
-            <button type="submit" class="submit-button">Register</button>
-        </form>
-    </div>
 
-    <a href="#" class="back-button">← Back to Home</a>
+        <div class="content">
+            <div class="registration-container">
+                <div class="form-box">
+                    <div class="head">
+                        <h1>Faculty Registration</h1>
+                        <img src="faculty_logo.png" alt="Faculty Logo">
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="regno"> Faculty ID</label>
+                            <input type="text" id="regno" required placeholder="Enter the faculty ID">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="Enter the name of student">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="Enter the email of student">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required placeholder="Enter the default password">
+                        </div>
+                        <button type="submit" class="submit-button">Register</button>
+                    </form>
+                </div>
+                <div class="back-button">
+                    <a href="#">← Back to Home</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+            <footer>
+                <div class="footer-content">
+                    <p>&copy; 2025 VTrack. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>
